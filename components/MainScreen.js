@@ -8,7 +8,7 @@ import {
   Image,
   FontAwesome5,
   Linking,
-} from "react-native"; // Image eklenmiştir
+} from "react-native";
 import { IconContext } from "react-icons";
 import { Ionicons, FontAwesome, Entypo, AntDesign } from "@expo/vector-icons";
 import { Icon } from "@rneui/themed";
@@ -63,13 +63,13 @@ const AcasaScreen = () => {
           marginRight: "auto",
           borderRadius: 3,
           width: 340,
-          height: 60,
+          height: 40,
           alignItems: "center",
         }}
       >
         <Ionicons
           name="person"
-          size={24}
+          size={20}
           color="white"
           style={{
             marginRight: 8,
@@ -78,7 +78,7 @@ const AcasaScreen = () => {
         />
         <Text
           style={{
-            fontSize: 24,
+            fontSize: 20,
             color: "white",
             fontWeight: "300",
           }}
@@ -358,7 +358,7 @@ const TitluriTarifaceDisponibileScreen = () => {
               }}
               onPress={handleLogin}
             >
-              <Entypo name="shopping-cart" size={20} color="white" style={{}} />
+              <Entypo name="shopping-cart" size={27} color="white" style={{}} />
               <Text style={{ color: "white", fontSize: 16 }}>
                 Cumpără titluri tarifare
               </Text>
@@ -419,7 +419,7 @@ const MainScreen = () => (
       component={CardCalatorieScreen}
       options={{
         tabBarIcon: ({ color }) => (
-          <Ionicons name="bookmarks" size={24} color={color} />
+          <Ionicons name="bookmarks" size={27} color={color} />
         ),
         tabBarLabel: ({ focused }) => (
           <Text style={{ fontSize: 10, color: "#D3E5CB" }}>Card Călătorie</Text>
